@@ -1,0 +1,7 @@
+Date,Student ID,Student Name,Class,Day Type,Entry Time,Attendance Code,Minutes Late,Reason,Notes
+2026-06-08,S001,Ava Martin,2A,Full Day,08:45,Present,0,,
+2026-06-08,S002,Liam Chen,2A,Full Day,08:47,Late,2,Bus delay,
+2026-06-08,S004,Noah Brown,2A,Full Day,,Absent,0,Illness,Parent called
+2026-06-09,S008,Ethan King,2A,Full Day,08:45,Present,0,,
+2026-06-09,S017,Zoe Baker,2A,Full Day,08:50,Late,5,Appointment,
+2026-06-10,S020,William Bell,2A,Full Day,08:45,Present,0,,
