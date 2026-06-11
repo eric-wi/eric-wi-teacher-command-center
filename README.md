@@ -2,38 +2,24 @@
 
 A dashboard-first spreadsheet workbook starter pack for a **Grade 2 Ontario teacher** in the **Greater Essex County District School Board**.
 
-## Dashboard-first structure
+## New guides added
+- `docs/excel-assembly-guide.md`
+- `docs/floral-dashboard-layout.md`
+- `docs/one-tab-only-simplified-version.md`
+- `csv/01_One_Tab_Dashboard_Simplified.csv`
 
-This version is designed around **one visible master Dashboard** that acts as the command center for the workbook.
+## Workbook options
+### Option 1 — Dashboard-first workbook
+Use one visible Dashboard tab with supporting tracker tabs.
 
-### Recommended visibility
-- **Visible:** Dashboard
-- **Working tabs:** Student Directory, Assignment Tracker, Assessment Tracker, Attendance Tracker, Student Progress Tracker, Communication Log, Important Dates Tracker, Professional Development Tracker
-- **Hidden helper/reference tabs:** Lists, Ontario Grade 2 Curriculum Map, Comment Bank, Dashboard Data
+### Option 2 — One-tab-only simplified version
+Use the included simplified CSV as a compact teacher snapshot and planning page.
 
-## Master Dashboard sections
-- Teacher & class profile
-- KPI cards
-- Upcoming dates
-- Attendance snapshot
-- Assignments & assessments
-- Student support alerts
-- Recent communication
-- Planning snapshot
-- Professional development snapshot
-- Quick links / navigation
-
-## Files
-- `csv/01_Dashboard.csv` — redesigned master dashboard scaffold
-- `docs/dashboard-formulas.md` — production-ready dashboard formulas
-- `docs/build-guide.md` — dashboard-first workbook assembly
-- `docs/master-dashboard-layout.md` — visual layout and section map
-
-## How to use
-1. Import all CSV files into one workbook.
-2. Keep `Dashboard` as the only visible landing tab if desired.
-3. Hide support/reference tabs.
-4. Paste formulas from `docs/dashboard-formulas.md` into the Dashboard.
-5. Add charts from the summary tables on `Dashboard Data`.
+## Existing files
+- `docs/master-dashboard-layout.md`
+- `docs/dashboard-formulas.md`
+- `docs/build-guide.md`
+- `csv/01_Dashboard.csv`
+- `csv/45_Dashboard_Data.csv`
 
 🌸 Teach • Plan • Organize • Track • Inspire 🌸
