@@ -1,36 +1,39 @@
 # Build Guide
 
-## Recommended workbook assembly order
-1. Import `csv/42_Lists.csv`
-2. Import `csv/09_Student_Directory.csv`
-3. Import planning tabs
-4. Import tracking tabs
-5. Import support tabs
-6. Import `csv/45_Dashboard_Data.csv`
-7. Build dashboard cards and charts
+## Dashboard-first workbook assembly
 
-## Freeze panes
-- Freeze row 1 on all sheets
-- Freeze column A on Student Directory, Gradebook, Attendance Tracker, Student Progress Tracker, Standards Tracker
+### Keep these tabs visible
+- Dashboard
+- Student Directory
+- Assignment Tracker
+- Assessment Tracker
+- Attendance Tracker
+- Student Progress Tracker
+- Communication Log
+- Important Dates Tracker
+- Professional Development Tracker
 
-## Filters
-Enable filters on all tabs.
-
-## Hidden helper tabs
-Hide:
+### Hide these tabs if desired
 - Lists
 - Ontario Grade 2 Curriculum Map
 - Comment Bank
 - Dashboard Data
+- all optional planning/support tabs not needed daily
 
-## Suggested dashboard labels
-- B2 Total Students
-- B3 Attendance Rate
-- B4 Students Absent Today
-- B5 Students Late Today
-- B6 Assignments Due This Week
-- B7 Awaiting Grading
-- B8 Upcoming Assessments
-- B9 Parent Contacts This Month
-- B10 Students Requiring Intervention
-- B11 PD Hours YTD
+## Setup steps
+1. Import all CSV files into a single workbook.
+2. Rename tabs to friendly names without numeric prefixes if desired.
+3. Build the Dashboard using `docs/master-dashboard-layout.md`.
+4. Paste formulas from `docs/dashboard-formulas.md`.
+5. Add filters to all tracker tabs.
+6. Freeze row 1 on all sheets.
+7. Protect formula cells on the Dashboard.
+
+## Recommended charts sourced from Dashboard Data
+- attendance by month
+- assignment status summary
+- student performance distribution
+- communication count by month
+
+## Suggested workflow
+Use Dashboard as the only landing page. Enter and maintain data in the tracker tabs, while the Dashboard displays the summary.

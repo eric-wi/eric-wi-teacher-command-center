@@ -1,8 +1,8 @@
-Metric,Value
-Total Students,
-Attendance Rate,
-Assignments Awaiting Grading,
-Upcoming Assessments,
-Students Requiring Intervention,
-Parent Contacts This Month,
-PD Hours YTD,
+Metric,Value,Month,Present Count,Absent Count,Late Count,Standing,Count,Status,Count
+Total Students,,January,,,,Below,,Planned,
+Attendance Rate,,February,,,,Approaching,,Assigned,
+Assignments Awaiting Grading,,March,,,,Meeting,,In Progress,
+Upcoming Assessments,,April,,,,Exceeding,,Awaiting Grading,
+Students Requiring Intervention,,May,,,,Graded,,Returned,
+Parent Contacts This Month,,June,,,,,,,
+PD Hours YTD,,September,,,,,,,
